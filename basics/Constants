@@ -1,0 +1,17 @@
+# Constants
+
+In programming, constants are values that cannot be changed during program execution. They are used to represent fixed and immutable data such as numbers, characters, booleans, or even strings.
+
+Constants are used to assign a value to a variable that will not be modified later in the program. This helps to prevent errors and allows programmers to write more readable and understandable code, as constant values have a defined meaning and do not change.
+
+In many programming languages, constants are declared using specific keywords such as "const" or "final". For example, in C++:
+
+const int MAX_NUMBER = 100;
+const float PI = 3.14159;
+const string NAME = "John";
+
+In this example, "MAX_NUMBER", "PI", and "NAME" are constants that store a maximum number, the value of pi, and the name "John", respectively. These values cannot be modified throughout the program.
+
+Constants are useful to prevent accidental modification of important values and to make code easier to maintain. Additionally, they can improve program performance since the compiler or interpreter can perform optimizations knowing that certain values will not change.
+
+It's important to note that constants may vary from one programming language to another, and some languages may have more advanced features for dealing with constants, such as compile-time constants (constants whose values are known before program execution) and enumerated constants (sets of related constant values).
